@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">医药宝</string>
+    <string name="action_settings">删除</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about">1、你只需要记住，我叫叶良辰.\n2、呵呵，我会让你们明白，良辰从不说空话。\n3、别让我去你们那破学校找你，我是本地的，我有一百种方法让你们待不下去，可你们，却无可奈何。\n4、呵呵，良辰最喜欢对那些自认为能力出众的人出手。\n5、你们只需要记住，我叫叶良辰。\n6、无妨，你们可以把所有认识的人全部叫出来，良辰不介意陪你们玩玩，若我赢了，你们给我乖乖滚出宿舍，别欺人太甚。\n7、你若是感觉有实力跟我玩，良辰不介意奉陪到底。\n	8、当然，若是你们就此罢手，那良辰在此多谢了，他日，必有重谢。</string>
+	<string name="chooseNet">继续浏览会消耗流量,是否选择wifi?</string>
+	<string name="noNet">当前未连接到任何网络噢@_~</string>
+	<string name="emptey">您的收藏为空!!!</string>
+	<string name="load">正在玩命加载~_:</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#222222" >
+
+        <ImageView
+            android:id="@+id/iv_collect_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/tenpay_push_down" />
+
+        <ImageView
+            android:id="@+id/collect_xiaoai"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_collect_back"
+            android:src="@drawable/applogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/collect_xiaoai"
+            android:text="收藏"
+            android:textColor="#f3f3f3"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_collect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+    <TextView 
+        android:id="@+id/tv_emptyview" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/emptey"/>
+
+</LinearLayout>
